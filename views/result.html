@@ -1,0 +1,134 @@
+<!--START of result page -->
+<div class='resultPage' ng-controller='ResultCtrl'>
+  <!-- START of in page -->
+  <div class='inPage'>
+    <!-- START of center page -->
+    <div class='centerPage'>
+      <!-- START of result head page -->
+      <div class='resultHead'>
+        <!-- START of logo small page -->
+        <div class='logoSmall'>
+          <img src='img/hl-logo-sml.png' />
+          <div class='logoText'>Skin-Smart tool</div>
+        </div>
+        <!-- END of logo small page -->
+        <!-- START of result info -->
+        <div class='resultInfo'>
+          <div class='read'>
+            <p class='rText'>Based on the information you have shared, these are the recommended Hada Labo products that best fit your skin.</p>
+            <p class='rText sml'>We recommend that you snap a picture of this page for your future reference, as the data is not stored.</p>
+          </div>
+          <a class='btnSml startAgain' ng-href='#/'><span class='center'><span class='txt'>Start again</span><span class='arw'></span></span></a>
+        </div>
+        <!-- END of result info -->
+      </div>
+      <!-- END of result head page -->
+      <!-- START of result body page -->
+      <div class='resultBody'>
+        <div class='center'>
+          <!-- START of result product list -->
+          <div class='resultProductList'>
+            <!-- START of day list all -->
+            <div class='dayListAll'>
+              <div class='categoryInfo'>
+                <h2>Day <img src='img/arw-big-rt.png' width='16px;'></h2>
+                <h3>Ohayo Gozaimasu!</h3>
+                <p>Start the day with your Skin-Smart skincare regime</p>
+              </div>
+              <div class='productsAll' ng-click='daySlider()'>
+                <ul class='stepList'>
+                  <li ng-repeat='dayPro in dayProducts track by $index'><p>Step </p><span class='arwSml'></span></li>
+                </ul>
+                <ul class='productList'>
+                  <li ng-repeat='dayPro in dayProducts track by $index' ng-click='showPro($index)'><div class='stepInfo'><p>Step </p><span class='arwSml'></span></div><div class='productImg'><img ng-src='{{dayPro.img}}' onError="this.style.display = 'none';"/><p class='noProduct'>{{dayPro.noProduct}}</p></div><div class='productName'><p>{{dayPro.name}}</p></div></li>
+                </ul>
+              </div>
+            </div>
+            <!-- END of day list all -->
+            <hr>
+            <!-- START of night list all -->
+            <div class='nightListAll'>
+              <div class='categoryInfo'>
+                <h2>Night <img src='img/arw-big-rt.png' width='16px;'></h2>
+                <p>Let your skin rest well with Skin-Smart night skincare regime.</p>
+                <h3>Oyasuminasai!</h3>
+              </div>
+              <div class='productsAll' ng-click='nightSlider()'>
+                <ul class='stepList'>
+                  <li ng-repeat='nightPro in nightProducts track by $index'><p>Step </p><span class='arwSml'></span></li>
+                </ul>
+                <ul class='productList'>
+                  <li ng-repeat='nightPro in nightProducts track by $index' ng-click='showPro($index)'><div class='stepInfo'><p>Step </p><span class='arwSml'></span></div><div class='productImg'><img ng-src='{{nightPro.img}}'  onError="this.style.display = 'none';"/><p class='noProduct'>{{nightPro.noProduct}}</p></div><div class='productName'><p>{{nightPro.name}}</p></div></li>
+                </ul>
+              </div>
+            </div>
+            <!-- END of night list all -->
+            <hr>
+            <!-- START of tnc -->
+            <div class='tnc'>
+              <p>*Click on individual product image for product information</p>
+            </div>
+            <!-- END of tnc -->
+          </div>
+          <!-- END of result product list -->
+        </div>
+      </div>
+      <!-- END of result body page -->
+    </div>
+    <!-- END of center page -->
+  </div>
+  <!-- END of in page -->
+
+<!-- START of overlay page -->
+<div class='overlayPage' ng-show='overLay'>
+  <div class='transBg'></div>
+  <!-- START of product slider -->
+  <div class='productSlider'>
+    <!-- START of slider list -->
+    <div class='sliderList'>
+      <a class='close' href='javascript:void(0);' ng-click='hidePro()'>x-close</a>
+      <!-- START of carousel  -->
+      <div class='day-carousel' ng-show='dayCarousel'>
+        <ul rn-carousel rn-carousel-controls rn-carousel-index='carouselIndex' rn-carousel-buffered class='carousel1' >
+          <li ng-repeat='slide in dayProducts2 track by $index' ng-class=''>
+            <div class='slideHolder'>
+              <div class='slideImg'><img ng-src='{{slide.img}}'></div>
+              <div class='slideContent'>
+                <h2>Step {{slide.seq}}</h2>
+                <!-- <h2>Step </h2> -->
+                <h1>{{slide.name}}</h1>
+                <p>{{slide.description}}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class='night-carousel' ng-show='nightCarousel'>
+        <ul rn-carousel rn-carousel-controls rn-carousel-index='carouselIndex' rn-carousel-buffered class='carousel2' >
+          <li ng-repeat='slide in nightProducts2 track by $index' ng-class=''>
+            <div class='slideHolder'>
+              <div class='slideImg'><img ng-src='{{slide.img}}'></div>
+              <div class='slideContent'>
+                <h2>Step {{slide.seq}}</h2>
+                <!-- <h2>Step </h2> -->
+                <h1>{{slide.name}}</h1>
+                <p>{{slide.description}}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- END of carousel -->
+    </div>
+    <!-- END of slider list -->
+
+
+
+  </div>
+  <!-- END of product slider -->
+</div>
+<!-- END of overlay page -->
+
+</div>
+<!-- END of result page
+

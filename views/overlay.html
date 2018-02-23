@@ -1,0 +1,34 @@
+<!-- START of overlay page -->
+<div class='overlayPage'>
+  <div class='transBg'></div>
+  <!-- START of product slider -->
+  <div class='productSlider'>
+    <!-- START of slider controles -->
+    <div class='sliderControles'>
+      <a class='left' href='javascript:void(0);'><span>Left</span></a>
+      <a class='right' href='javascript:void(0);'><span>Right</span></a>
+    </div>
+    <!-- END of slider controles -->
+    <!-- START of slider list -->
+    <div class='sliderList'>
+      <a class='close' href='javascript:void(0);'>x-close</a>
+      <!-- START of product list -->
+      <ul class='proList'>
+        <!-- START of product view -->
+       <li class='productView'></li>
+       <!-- END of product view -->
+      </ul>
+      <!-- END of product list -->
+    </div>
+    <!-- END of slider list -->
+
+    <ul rn-carousel class="image">
+      <li ng-repeat="image in sportImages">
+        <div class="layer">{{ image }}</div>
+      </li>
+    </ul>
+
+  </div>
+  <!-- END of product slider -->
+</div>
+<!-- END of overlay page -->

@@ -1,0 +1,408 @@
+@media only screen and (max-width: 3000px), only screen and (max-device-width : 3000px){ }
+@media only screen and (min-width: 1025px), only screen and (min-device-width : 1025px){ 
+  .resultPage{ background-size: 100% auto; }
+  .stepPage .stepHead .stepQuestion{ background-size: auto 100%; }
+  .stepPage .modelPic img{ max-width: 580px; }
+
+}
+@media only screen and (max-width: 1210px), only screen and (max-device-width : 1210px){ 
+  .sliderList{ max-width: 860px; min-width: 860px; }
+  .rn-carousel-controls .rn-carousel-control{ width: 70px; }
+  .categoryInfo{ width: 170px; }
+  .productsAll .stepList{ min-width: 150px; }
+  .productsAll .stepList li{ width: 150px; }
+  .productsAll .productList li{ width: 150px; min-width: 150px; }
+}
+@media only screen and (max-width: 1024px), only screen and (max-device-width : 1024px){ 
+  /* START of styles to fit page in 1024 x 600 */
+  .landingPage{ max-height: 600px; }
+  .landingPage .logoAll .logoText{ font-size: 8.5em; margin:30px 0 30px 0; }
+  .landingPage .inPage{ display: inline-block; float: left; width: 100%; }
+  .landingPage .inPage .centerPage{ margin: 80px 2% 0 34%; }
+  .landingPage .startNow{ margin: 40px auto 40px; }
+  .logoSmall{ padding: 16px 22px; }
+  .logoSmall .logoText{ font-size: 3em; margin: 12px 0 0 0; }
+  .stepPage .modelPic img{ max-width: 500px; }
+  .stepPage .stepHead .logoSmall{ padding: 16px 20px; }
+  .stepPage .stepHead .stepQuestion{ height: 108px; padding: 10px 50px 12px 50px; }
+  .stepPage .stepAnswerList ul.list li{ padding: 12px 20px; }
+  .stepPage .stepHead .stepQuestion p{ font-size: 2.8em; }
+  .stepPage .stepFoot{ padding: 40px 12% 20px 34%; }
+  .btnSml{ padding: 18px 20px; width: 240px; }
+  .stepPage .btnList{ width: 480px; float: right; }
+  .stepPage .stepBody{ min-height: 360px; padding: 0 12% 0 34%; }
+  .stepPage .btnList .err{ padding: 8px 20px; top:-40px; }
+  .productsAll .productList li .productImg img{ max-width: 110px; max-height: 110px; }
+  .productsAll .productList li .productImg{ height: 110px; }
+  .productsAll .productList li .productName p{ font-size: 1.2em; line-height: 1.2; }
+  .productsAll .stepList{ min-height: 31px; }
+  .productsAll .stepList li{ padding: 6px 10px; }
+  .categoryInfo h2{ font-size: 3.5em; margin:10px 0 12px 0; }
+  .categoryInfo p{ font-size: 1.4em; line-height: 1.2; margin: 5px 0 0 0; }
+  .rn-carousel-controls .rn-carousel-control{ width: 70px; height: 220px; top: 50%; margin: -100px 0 0 0; }
+  .sliderList .slideHolder .slideContent{ padding: 0 6%; }
+  .sliderList{ margin: 15vh auto; height: 68%; }
+  .sliderList .close{ right: 28px; top: 25px; }
+  .resultPage .resultHead .resultInfo{ padding: 15px 34px 15px 30px; height: 108px; }
+  .resultPage .resultHead .read p{ font-size: 1.5em; line-height: 1.2; }
+  .productsAll{ max-width: 750px; }
+  .resultPage .resultHead .btnSml{ width: 204px; height: 44px; font-size: 1.6em; padding: 14px 10px; margin:16px 0 0 0; }
+  .resultPage .resultHead .btnSml .arw{ margin: -1px 0 0 0; }
+  /* END of styles to fit page in 1024 x 600 */
+
+  /* START of landing page vertical middle styles */
+  .landingPage{ position: relative; }
+  .landingPage .inPage{ position: absolute; left: 0; top:0; z-index: 10; height: 100%; width: 100%; }
+  .landingPage .inPage .centerPage{ margin: 0 2% 0 34%; display: table; height: 100%; float: none; }
+  .landingPage .landingInfoPage{ display: table-cell; float: none; vertical-align: middle; }
+  .landingPage .startNow{ margin:50px auto 0; }
+  /* END of landing page vertical middle styles */
+
+}
+@media only screen and (max-width: 1023px), only screen and (max-device-width : 1023px){ 
+  .previewMain{ width:100%; min-width: 320px; }
+  .landingPage .inPage .centerPage{  }
+  .landingPage .modelPic img{ /*max-width: 400px;*/ }
+
+  .categoryInfo{ width:100%; padding: 0; text-align: left; margin: 0 0 20px 0; }
+  .categoryInfo h2{ float: left; margin: 0 20px 0 0; font-size: 2.6em; padding: 0 22px 0 0; }
+  .categoryInfo h3{ clear: initial; float: left; margin: 5px 10px 0 0; }
+  .categoryInfo p{ clear: initial; display: inline-block; margin: 9px 10px 0 0; float: left; }
+  .productsAll{ width: 100%; max-width: 100%; }
+  .productsAll .productList{ width: 100%; }
+  .productsAll .stepList li{ width: 20%; }
+  .categoryInfo h2 img{ width: auto; height: 16px; top: 8px; }
+  .productsAll .productList li{ width:20%; min-width: 20%; }
+  .resultPage .resultHead .read{ width: calc(100% - 210px); }
+  .resultPage .resultHead .btnSml{ width: auto; padding: 14px 20px; }
+}
+@media only screen and (max-width: 959px){  
+  .landingPage .modelPic img{ max-width: 400px; }
+  .stepPage .modelPic img{ max-width: 460px; }
+  .stepPage .stepHead{ border:none; }
+  .stepPage .stepHead .logoSmall{ margin:0 auto; display: block; float: none; }
+  .stepPage .stepHead .stepQuestion{ clear: both; width: 100%; min-height: 80px; height: auto; }
+  .stepPage .stepBody{ padding: 20px 12% 110px; min-height: 530px; }
+  .stepPage .stepFoot{ position: fixed; bottom: 0; left: 0; padding: 30px 6% 40px 6%; z-index: 10; }
+  .stepPage .stepModel{ display: none; }
+  .resultPage .resultBody{ padding: 20px 25px 20px 25px; }
+  .resultPage .resultHead .resultInfo{ padding: 14px 15px 14px 15px; }
+  .resultPage .resultHead .read{ margin: 0 0 10px 0; }
+  .resultPage .resultBody{ padding: 18px 15px 18px 15px; }
+  .resultPage .resultHead .read{ width: calc(100% - 200px); } 
+  .resultPage .resultHead .btnSml{ font-size: 1.4em; padding: 12px 20px; height: auto; margin:12px 0 0 0; }
+  .resultPage .resultHead .logoSmall{ margin: 0 auto; width: 100%; padding:12px 20px 12px 20px; }
+  .resultPage .resultHead .resultInfo{ height: auto; width: 100%; }
+  .resultPage .resultHead .read p{  }
+  .productsAll .productList li .productImg img{ width: 100%; height: auto; }
+  .productSlider{ padding: 0 20px; }
+  .sliderList{ max-width: 100%; min-width: 100%; }
+  .sliderList .slideHolder .slideImg img{ width: 200px; }
+  .sliderList .slideHolder .slideContent{ padding: 0 5%; }
+  .productsAll .stepList{ min-height: 26px; }
+  .productsAll .stepList li p{ font-size: 1.2em; line-height: 1.2; }
+  .landingPage .inPage .centerPage{ margin:0 2% 0 20%; }
+}
+@media only screen and (max-width: 850px), only screen and (max-device-width : 850px){ 
+  .landingPage .logoAll img{ width:210px; }
+  .landingPage .logoAll .logoText{   font-size: 6.5em; }
+  .landingPage .infoInitiator p{ font-size: 2.2em; }
+  .landingPage .startNow{ width: auto; font-size: 2.4em; padding: 18px 30px 18px 35px; margin: 50px auto 0; }
+  .bigBtn .center .arrow{ width: 22px; height: 22px; background-size: 20px auto; margin: 1px 0 0 14px; }
+  .landingPage .inPage .centerPage{  }
+}
+@media only screen and (max-width: 768px), only screen and (max-device-width : 768px){ }
+@media only screen and (max-width: 767px), only screen and (max-device-width : 767px){ 
+  .landingPage .landingModel{ display: none; }
+  .landingPage .inPage .centerPage{ margin: 0 auto; }
+
+  .productSlider{ padding: 0 50px; }
+  .sliderList .slideHolder .slideImg{ padding-bottom: 20px; width: 240px; }
+  .sliderList .slideHolder .slideContent{ width: calc(100% - 240px); }
+  .sliderList{ height: 60vh; }
+  .sliderList .slideHolder{ display: inline-block; float: left; padding: 30px; }
+  .sliderList .slideHolder .slideImg{ display: inline; float: initial; width:auto; padding:0; height: auto; }
+  .sliderList .slideHolder .slideContent{ display: inline; float: initial; width: auto; padding:0; background: none; height: auto; }
+  .sliderList .slideHolder .slideImg img{ display: inline-block; float: left; margin: 0 30px 20px 0; }
+  .sliderList .slideHolder .slideContent h2{ display: inline-block; margin:50px 0 10px 0; font-size: 2.4em; }
+  .sliderList .slideHolder .slideContent h1{ width: auto; font-size: 2.4em; }
+  .sliderList .slideHolder .slideContent p{ display: inline-block; float: left; clear: both; }
+  .rn-carousel-controls .rn-carousel-control{ background-size: 12px auto; width: 50%; height: 50px; position: initial; display: inline-block; float: left; background-color: rgba(0,0,0,0); margin:0; }
+  .sliderList .close{ width: 30px; height: 30px; background-size: 20px auto; }
+
+  .stepPage .stepBody{ padding: 20px 20px 90px 20px; min-height: initial; }
+  .stepPage .stepFoot{ padding:0; }
+  .stepPage .btnList{ width: 100%; }
+  .stepPage .btnList .btnSml{ width:50%; padding: 15px 20px; height: 50px; }
+  
+  .productSlider{ padding: 0; }
+  .sliderList{ height: 100%; margin: 0 auto; }
+  .sliderList .slideHolder .slideImg img{  }
+  .sliderList .close{ right: 16px; top: 16px; }
+  .sliderList .slideHolder{ padding: 20px 20px 80px 20px; overflow: auto; height:100vh; }
+  .sliderList .slideHolder .slideImg img{ width: 120px; }
+  .sliderList .slideHolder .slideContent h2{ margin: 30px 0 10px 0; font-size: 1.6em; }
+  .sliderList .slideHolder .slideContent h1{ font-size: 1.6em; margin: 0 0 20px 0; }
+  .sliderList .slideHolder .slideContent p{ font-size: 1.4em; }
+  .rn-carousel-controls{ position: fixed; left: 0; bottom: 0; z-index: 10; height: 50px; width: 100%; }
+  .rn-carousel-controls .rn-carousel-control-prev{ float: left; }
+  .rn-carousel-controls .rn-carousel-control-next{ float: right; }
+  .rn-carousel-controls{ background: rgba(0,0,0,0.6); }
+  ul[rn-carousel] > li:nth-child(1) .slideHolder .slideContent h2::after{ margin: 0 0 0 -10px; background:#fff; }
+
+  .productsAll .stepList{ display: none; }
+  .productsAll .productList li{ width: 50%; display: inline-block; float: left; margin:0 auto 15px; min-height: 120px; }
+  .productsAll .productList li:nth-child(5){ width: 100%; }
+  .productsAll .productList li:nth-child(5) .productName p{ min-height: initial; font-size: 12px; }
+  .productsAll .productList li .stepInfo{ width:100%; display: inline-block; float: left; text-align: center;background: #2caad7; padding: 6px 10px; position: relative; margin: 0 0 20px 0; }
+  .productsAll .productList li .stepInfo p{ font-size: 12px; line-height: 1.2; color: #ffffff; font-weight: 700; text-align: center; text-transform: uppercase; }
+  .productsAll .productList li .stepInfo .arwSml{ width: 0; height: 0; border-top: 13px solid transparent; border-bottom: 13px solid transparent; border-left: 10px solid #51d3fd; position: absolute; right: -10px; top: 0; z-index: 10; }
+  .productsAll .productList li:nth-child(1) .stepInfo{ background: #51d3fd; }
+  .productsAll .productList li:nth-child(2) .stepInfo{ background: #47c3fd; }
+  .productsAll .productList li:nth-child(3) .stepInfo{ background: #3cb4fd; }
+  .productsAll .productList li:nth-child(4) .stepInfo{ background: #31a3fc; }
+  .productsAll .productList li:nth-child(5) .stepInfo{ background: #1d94dc; }
+  .productsAll .productList li:nth-child(1) .arwSml{ border-left-color: #51d3fd; }
+  .productsAll .productList li:nth-child(2) .arwSml{ border-left-color: #47c3fd; }
+  .productsAll .productList li:nth-child(3) .arwSml{ border-left-color: #3cb4fd; }
+  .productsAll .productList li:nth-child(4) .arwSml{ border-left-color: #31a3fc; }
+  .productsAll .productList li:nth-child(5) .arwSml{ border-left-color: #1d94dc; }
+  .productsAll .productList{ overflow: hidden; }
+  .productsAll .productList li .productImg img{ }
+  .productsAll .productList li .productImg img[src='Error.src']{ display: none; }
+  .productsAll .productList li .productName{ clear: both; }
+  .productsAll .productList li .productImg p.noProduct{ top: 0; padding-top: 30px; }
+
+  .productsAll .productList li .productImg{ display: inline-block; float: none; } 
+  .productsAll .productList li .productName p{ min-height: 70px; }
+  .dayListAll{ margin:10px 0 30px 0; }
+  .nightListAll{ margin:10px 0 30px 0; }
+  .resultPage .resultHead .logoSmall{ padding: 18px 20px 16px 20px; }
+  .sliderList ul{ height: 100vh; position: relative;z-index: 9; }
+  .resultBody .center, 
+  .resultBody .resultProductList,
+  .dayListAll, 
+  .nightListAll{ width: 100%;  }
+  
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width : 640px){ 
+  .landingPage .landingModel{ display:none; }
+  .landingPage .inPage .centerPage{ margin:0 auto; height: 100vh; }
+  .landingPage .logoAll img{ width:180px; }
+  .landingPage .logoAll .logoText{ font-size:4em; }
+  .landingPage .infoInitiator{ padding:0 30px; }
+  .landingPage .infoInitiator p{ font-size: 2em; padding: 0 20px; }
+  .landingPage .startNow{ width: auto; font-size: 2em; padding: 14px 30px; }
+  .bigBtn .center .arrow{ width: 20px; height: 20px; background-size: 18px auto; margin: 1px 0 0 10px; }
+  .logoSmall .logoText{ font-size: 2em; }
+
+  .stepPage .stepInfoPage{ height: 100%;  }
+  .stepPage .stepHead .stepQuestion{ padding: 10px 20px 12px 20px; min-height: 70px; }
+  .stepPage .stepHead .stepQuestion p{ font-size: 2em; line-height: 1.1; }
+  .stepPage .stepHead .stepQuestion .count{ padding: 0 20px 0 0; }
+  .stepPage .stepHead .stepQuestion .divLine{ height: 18px; margin: 0 0 0 16px; }
+  .stepPage .stepHead .stepQuestion p.qText{ width: calc(100% - 75px); }
+  .stepPage .stepAnswerList ul.list li{ padding: 12px 10px; }
+  
+  .stepPage .btnList .btnSml{ font-size: 1.4em; }
+  .stepPage .btnList .btnSml .center .arw{ width: 16px; height: 16px; background-size: 16px auto; margin:3px 0 0 0; }
+  .stepPage .btnList .btnSml .center .txt{ margin:4px 10px 0 0; }
+  .stepPage .btnList .btnSml.back .center .txt{ margin:4px 0 0 10px; }
+  .stepPage .btnList .btnSml.result .center .txt{ margin:4px 0 0 0; }
+
+  .stepPage .stepAnswerList ul.list li p{ font-size: 1.8em; }
+  .stepPage .stepAnswerList ul.list li{ position: relative; }
+  .stepPage .stepAnswerList ul.list li .btnType{ width: 16px; height: 16px; margin: 4px 14px 0 0; position: absolute; left: 10px; top: 10px; }
+  .stepPage .stepAnswerList ul.list li p{ width: 100%; padding:0 0 0 30px; float: left; }
+  .stepPage .stepAnswerList ul.list{ margin: 10px 0 0 0; }
+  .stepPage .modelPic{ display: none; }
+  .stepPage .btnList .err{ font-size: 1.5em; }
+  .resultPage .resultHead .resultInfo{ padding: 14px 25px 14px 25px; }
+  .resultPage .resultHead .read{ width: 100%; }
+  .resultPage .resultHead .read p{ text-align: center; }
+  .resultPage .resultHead .btnSml{ margin: 10px auto 8px; float: none; display: block; clear: both; max-width: 170px; }
+  .productsAll .productList li .productImg{ height: auto; display: block; clear: both;}
+
+  .stepPage .stepHead .logoSmall{ padding: 20px; }
+
+  .stepPage .stepAnswerList ul.list li input[type='checkbox']:checked + .btnType.radio i{ width: 8px; height: 8px; left: 4px; top: 4px; }
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width : 480px){ 
+  .sliderList .slideHolder .slideImg img{ display: block; float: none; margin: 0 auto 30px; width: 160px; }
+  .sliderList .slideHolder .slideContent{  }
+  .sliderList .slideHolder .slideImg{ display: inline-block; float: left; width: 100%; }
+  .sliderList .slideHolder .slideImg img{ display: block; float: none; margin:0 auto; width: 210px; }
+  .sliderList .slideHolder .slideContent{ display: inline-block; float: left; width: 100%; }
+
+  .sliderList .slideHolder .slideContent h2{ font-size: 16px !important; }
+  .sliderList .slideHolder .slideContent h1{ font-size: 16px !important; }
+  .sliderList .slideHolder .slideContent p{ font-size: 14px !important; }
+
+}
+@media only screen and (max-width: 550px), only screen and (max-device-width : 550px){ 
+ .productsAll .productList li .productName p{ font-size: 1.2em; } 
+}
+@media only screen and (max-width: 479px), only screen and (max-device-width : 479px){ 
+  .landingPage .logoAll .logoText{ font-size: 3.8em; }
+  .landingPage .infoInitiator p{ font-size: 1.8em; }
+  .resultPage .resultHead .resultInfo{ padding: 18px 15px 14px 15px; }
+  .productsAll .stepList li .arwSml{ border-top: 13px solid transparent; border-bottom: 13px solid transparent; border-left: 5px solid #51d3fd; right: -5px; }
+  .resultPage .resultHead .btnSml{ font-size: 1.2em; padding: 13px 16px 11px; max-width: 150px; }
+  .categoryInfo h2{ font-size: 2.2em; padding: 0 16px 0 0; }
+  .categoryInfo h2 img{ height: 14px; top: 6px; }
+  .categoryInfo h3{ margin: 3px 10px 0 0; font-size: 1.4em; }
+  .resultBody .tnc{ font-size: 1.1em; }
+
+  .stepPage .stepBody{ padding: 10px 10px 90px 10px; }
+  .stepPage .stepAnswerList ul.list li .btnType{ margin:4px 10px 0 0; }
+  .stepPage .stepAnswerList ul.list li p{ font-size: 1.6em; }
+  .stepPage .stepHead .stepQuestion{ padding: 15px 15px 16px 14px; min-height: 50px; }
+  .stepPage .stepHead .stepQuestion p{ font-size: 1.8em; line-height: 1.2; }
+  .stepPage .stepHead .stepQuestion .vMiddle{ position: relative; display: inline-block; float: left; width: 100%; }
+  .stepPage .stepHead .stepQuestion .count{ padding: 0 10px 0 0; position: absolute;left: 0; top:0; }
+  .stepPage .stepHead .stepQuestion p.qText{ padding: 0 0 0 55px; width: 100%; }
+  .stepPage .stepHead .stepQuestion .divLine{ height: 13px; margin: 0 0 0 10px; }
+  .stepPage .stepHead .logoSmall{ }
+  ul[rn-carousel] > li{ z-index: 100; }
+  .sliderList .slideHolder{ height: 100%; }
+  .overlayPage{ height: 100%; }
+  .sliderList{ height: 100%; }
+  .sliderList ul{  }
+
+  .productsAll .productList li .productImg p.noProduct{ font-size: 1.3em; }
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width : 320px){ }
+/* iPad 768x1024 - landscape */
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){ 
+  /*.landingPage .inPage .centerPage{ margin: 160px 2% 0 34%; }
+  .stepPage .stepBody{ min-height: 480px; }
+  .stepPage .stepAnswerList ul.list li{ padding: 20px 30px; }
+  .stepPage .btnList .err{ padding: 12px 20px; top: -50px; }*/
+}
+/* iPhone 4S -640x960 landscape */
+@media only screen and (min-width:320px) and (max-width:480px) and (orientation:landscape){ }
+
+/* iPhone 6 -375x667 landscape*/
+@media only screen and (min-width:375px) and (max-width:667px) and (orientation:landscape){ 
+  .sliderList .slideHolder .slideImg img{ display: block; float: none; margin: 0 auto 30px; width: 160px; }
+  .sliderList .slideHolder .slideContent{  }
+  .sliderList .slideHolder .slideImg{ display: inline-block; float: left; width: 100%; }
+  .sliderList .slideHolder .slideImg img{ display: block; float: none; margin:0 auto; width: 210px; }
+  .sliderList .slideHolder .slideContent{ display: inline-block; float: left; width: 100%; }
+  .sliderList .slideHolder .slideContent h2{ font-size: 16px !important; }
+  .sliderList .slideHolder .slideContent h1{ font-size: 16px !important; }
+  .sliderList .slideHolder .slideContent p{ font-size: 14px !important; }
+
+  /*.sliderList{ height: 100%; margin: 0 auto; }
+  .sliderList .slideHolder .slideImg img{  }
+  .sliderList .close{ right: 16px; top: 16px; }
+  .sliderList .slideHolder{ padding: 20px 20px 80px 20px; overflow: auto; height:100vh; }
+  .sliderList .slideHolder .slideImg img{ width: 120px; }
+  .sliderList .slideHolder .slideContent h2{ margin: 30px 0 10px 0; font-size: 16px; }
+  .sliderList .slideHolder .slideContent h1{ font-size: 16px; margin: 0 0 20px 0; }
+  .sliderList .slideHolder .slideContent p{ font-size: 14px; }*/
+
+}
+/* iPhone 5 -320x568 landscape*/
+@media only screen and (min-width:320px) and (max-width:568px) and (orientation:landscape){ 
+  .productsAll .productList li .stepInfo p{ font-size: 12px !important }
+
+  .sliderList .slideHolder .slideImg img{ display: block; float: none; margin: 0 auto 30px; width: 160px; }
+  .sliderList .slideHolder .slideContent{  }
+  .sliderList .slideHolder .slideImg{ display: inline-block; float: left; width: 100%; }
+  .sliderList .slideHolder .slideImg img{ display: block; float: none; margin:0 auto; width: 210px; }
+  .sliderList .slideHolder .slideContent{ display: inline-block; float: left; width: 100%; }
+  .sliderList .slideHolder .slideContent h2{ font-size: 16px !important; }
+  .sliderList .slideHolder .slideContent h1{ font-size: 16px !important; }
+  .sliderList .slideHolder .slideContent p{ font-size: 14px !important; }
+}
+@media only screen and (max-width: 667px){ 
+  .productsAll .productList li:nth-child(5) .stepInfo p{ font-size: 7px !important; }
+  .productsAll .productList li:nth-child(5) .productName p{ font-size: 7px !important; }
+  .productsAll .productList li:nth-child(5) .stepInfo p::after{ font-size: 13px !important; }
+}
+@media only screen and (max-width: 666px){ 
+  .productsAll .productList li:nth-child(5) .stepInfo p{ font-size: 12px !important; }
+  .productsAll .productList li:nth-child(5) .productName p{ font-size: 12px !important; }
+  .productsAll .productList li:nth-child(5) .stepInfo p::after{ font-size: 12px !important; }
+}
+@media only screen and (max-width: 568px){
+  .productsAll .productList li:nth-child(5) .stepInfo p{ font-size: 7px !important; }
+  .productsAll .productList li:nth-child(5) .productName p{ font-size: 7px !important; }
+  .productsAll .productList li:nth-child(5) .stepInfo p::after{ font-size: 13px !important; }
+}
+@media only screen and (max-width: 567px){
+  .productsAll .productList li:nth-child(5) .stepInfo p{ font-size: 12px !important; }
+  .productsAll .productList li:nth-child(5) .productName p{ font-size: 12px !important; }
+  .productsAll .productList li:nth-child(5) .stepInfo p::after{ font-size: 12px !important; }
+}
+/* Samsung SIII - 720x1280 portrait */
+@media only screen and (device-width: 720px) and (orientation:portrait){ }
+/* Samsung SIII - 720x1280 landscape */
+@media only screen and (device-width: 1280px) and (orientation:landscape){ }
+/* Samsung Galaxy Tab2 - 600x1024 portrait */
+@media only screen and (device-width: 600px) and (orientation:portrait){ }
+/* Samsung Galaxy Tab2 - 600x1024 landscape */
+@media only screen and (device-width: 1024px) and (orientation:landscape){ }
+/* Samsung Galaxy S3 */
+@media only screen and (-webkit-device-pixel-ratio: 2) { 
+  .sliderList ul{ height: auto; min-height: 640px; }
+  .previewMain, .previewCenter, .previewPage, .landingPage, .stepsAllPage, .stepPage, .inPage, .centerPage{ height: 100%; min-height: 540px; }
+  .landingPage{ min-height: 100%; max-height: initial; min-height: 540px; }
+  .previewPage > .ng-scope{ height: 100%; min-height: 540px; }
+  .landingPage .inPage .centerPage{ height: 100%; min-height: 540px; }
+  .landingPage .landingInfoPage{ }
+  .questionnairePage{ min-height: initial; height: 100%; min-height: 540px; }
+}
+
+/* media queries based on pixel ratio */
+@media only screen and (min-device-pixel-ratio : 2) and (orientation:portrait),
+only screen and (-webkit-min-device-pixel-ratio : 2) and (orientation:portrait){ }
+@media only screen and (min-device-pixel-ratio : 2) and (orientation:landscape),
+only screen and (-webkit-min-device-pixel-ratio : 2) and (orientation:landscape){ }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){ }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){ } 
+@media only screen and (min-device-width : 600px) and (max-device-width : 1024px) and (orientation : landscape){ }
+
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){ 
+  .sliderList ul{ min-height: 100%; }639px
+}
+@media only screen and (width: 960px), only screen and (device-width : 960px){ }
+
+/*iPhone < 5:*/
+@media screen and (device-aspect-ratio: 2/3) {}
+/*iPhone 5:*/
+@media screen and (device-aspect-ratio: 40/71) { 
+  .sliderList{ height: 100%; margin: 0 auto; }
+  .sliderList .slideHolder .slideImg img{  }
+  .sliderList .close{ right: 16px; top: 16px; }
+  .sliderList .slideHolder{ padding: 20px 20px 80px 20px; overflow: auto; height:100vh; }
+  .sliderList .slideHolder .slideImg img{ width: 120px; }
+  .sliderList .slideHolder .slideContent h2{ margin: 30px 0 10px 0; font-size: 16px; }
+  .sliderList .slideHolder .slideContent h1{ font-size: 16px; margin: 0 0 20px 0; }
+  .sliderList .slideHolder .slideContent p{ font-size: 14px; }
+}
+/*iPhone 6:*/
+@media screen and (device-aspect-ratio: 375/667) {
+  .sliderList{ height: 100%; margin: 0 auto; }
+  .sliderList .slideHolder .slideImg img{  }
+  .sliderList .close{ right: 16px; top: 16px; }
+  .sliderList .slideHolder{ padding: 20px 20px 80px 20px; overflow: auto; height:100vh; }
+  .sliderList .slideHolder .slideImg img{ width: 120px; }
+  .sliderList .slideHolder .slideContent h2{ margin: 30px 0 10px 0; font-size: 16px; }
+  .sliderList .slideHolder .slideContent h1{ font-size: 16px; margin: 0 0 20px 0; }
+  .sliderList .slideHolder .slideContent p{ font-size: 14px; }
+}
+/*iPhone 6 Plus:*/
+@media screen and (device-aspect-ratio: 16/9) {}
+/*iPad:*/
+@media screen and (device-aspect-ratio: 3/4) {}
+
+/*This for retina device*/
+$isRetina: "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5)";
+
+@media #{$isRetina} {}
+
+

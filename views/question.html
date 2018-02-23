@@ -1,0 +1,77 @@
+<!-- START of questionnaire page -->
+<div class='questionnairePage' ng-controller='QuestionsCtrl'>
+  <!-- START of questionnaire page -->
+  <!-- START of steps all page -->
+  <div class='stepsAllPage'>
+    <!-- START of step page -->
+    <div class='stepPage'>
+      <!-- START of model pic -->
+      <div class='modelPic stepModel'>
+        <img class='model' src='img/hl-model2.png' />
+      </div>
+      <!-- END of model pic -->
+      <!-- START of in page -->
+      <div class='inPage'>
+        <!-- START of center page -->
+        <div class='centerPage'>
+          <!-- START of step info page -->
+          <div class='stepInfoPage'>
+            <!-- START of step head page -->
+            <div class='stepHead'>
+              <!-- START of logo small page -->
+              <div class='logoSmall'>
+                <img src='img/hl-logo-sml.png' />
+                <div class='logoText'>Skin-Smart tool</div>
+              </div>
+              <!-- END of logo small page -->
+              <!-- START of step question -->
+              <div class='stepQuestion'>
+                <div class='vMiddle'>
+                  <p class='count'><span class='current'>{{next}}</span><span class='by'>/</span><span class='total'>7</span><span class='divLine'></span></p>
+                  <p class='qText'>{{curQues.title}}</p>
+                </div>
+              </div>
+              <!-- END of step question -->
+            </div>
+            <!-- END of step head page -->
+            <!-- START of step body page -->
+            <div class='stepBody'>
+              <!-- START of step answer list -->
+              <div class='stepAnswerList radioList'>
+                <ul class='list'>
+                  <li ng-repeat='option in curQues.options'>
+                    <p class='option'>{{option.name}}</p>
+                    <input type='checkbox' name={{inName}} ng-change='answered(option)' value='{{option.id}}' ng-model='option.checked'>
+                    <span class='btnType {{inType}}'><i></i></span>
+                  </li>
+                </ul>
+              </div>
+              <!-- END of step answer list -->
+            </div>
+            <!-- END of step body page -->
+
+            <!-- START of step foot page -->
+            <div class='stepFoot'>
+              <!-- START of btn list -->
+              <div class='btnList'>
+                <p ng-if='isError' class='err'>Please select your answer to continue!</p>
+                <a class='btnSml back' ng-href='#/{{purl}}' ng-click='goPrev($event)'><span class='center'><span class='txt'>Back</span><span class='arw'></span></span></a>
+                <a class='btnSml next' ng-href='#/{{nurl}}' ng-click='goNext($event)' ng-hide='getResults'><span class='center'><span class='txt'>Next</span><span class='arw'></span></span></a>
+                <a class='btnSml next result' ng-href='#/{{nurl}}' ng-click='goNext($event)' ng-show='getResults'><span class='center'><span class='txt'>Get results</span><span class='arw'></span></span></a>
+              </div>
+              <!-- END of btn list -->
+            </div>
+            <!-- END of step foot page -->
+
+          </div>
+          <!-- END of step info page -->
+        </div>
+        <!-- END of center page -->
+      </div>
+      <!-- END of in page -->
+    </div>
+    <!-- END of step page -->
+  </div>
+  <!-- END of steps all page -->
+</div>
+<!-- END of questionnaire page -->
